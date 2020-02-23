@@ -1,1 +1,444 @@
 
+
+body {
+    font-family: Futura,'hiragino kaku gothic pro';
+    
+}
+
+ 
+.fuwatAnime {
+ -webkit-animation-fill-mode:both;
+ -ms-animation-fill-mode:both;
+ animation-fill-mode:both;
+ -webkit-animation-duration:1.5s;
+ -ms-animation-duration:1.5s;
+ animation-duration:1.5s;
+ -webkit-animation-name: fuwatAnime;
+ -ms-animation-name: fuwatAnime;
+ animation-name: fuwatAnime;
+ visibility: visible !important;
+}
+@-webkit-keyframes fuwatAnime {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); }
+}
+@keyframes fuwatAnime {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+}
+
+section{
+    overflow: hidden;
+    width: 100vw;
+}
+
+/*
+h1,h2,h3,h4,h5,h6,p {
+    color: #333333;
+}
+*/
+
+header {
+    background-size: cover;
+    background-position: center center;
+    background-color: blanchedalmond;
+    height: 100vh;
+    position: relative;
+}
+
+.hh {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+}
+
+.hh img{
+    width: 800px;
+    margin: auto;
+} @media screen and (max-width:480px){
+    .hh img{
+        width: 75vw;
+        margin: auto;
+    }
+}
+
+.hh p {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-family: Futura;
+    font-weight: normal;
+    font-style: italic;
+} @media screen and (max-width:480px){
+    .hh p{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+        color: #fff;
+        font-family: Futura;
+        font-weight: normal;
+        font-style: italic;
+    }
+}
+
+nav {
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    margin-right: 15px;
+} @media (max-width: 480px) {
+    nav {
+        display: none;
+    }
+}
+  
+
+
+nav a {
+    display: block;
+    padding: 30px 16px 0;
+    color: #fff;
+    font-size: 20pt;
+    transition: 1s;
+    font-family: Futura;
+    text-decoration: none;
+}
+  
+nav a:hover {
+    color: #3D5CDB;
+}
+
+h1 {
+    color: #3D5CDB;
+    text-align: center;
+    font-family: Futura;
+    font-size: 40pt;
+    padding: 40px;
+    margin: 0; 
+    
+} @media(max-width: 480px){
+    h1{
+        font-size: 20pt;
+    }
+}
+
+.up_intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15vh;
+}@media(max-width:480px) {
+    .up_intro {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15vh;
+    }
+}
+
+.up_intro img{
+    width: 500px;
+    margin: 20px;
+    line-height: 2;
+    
+}@media (max-width: 480px) {
+     .up_intro img {
+     width: 100%;
+     margin-bottom: 20px;
+     line-height: 2;
+    }
+}
+
+
+.discription1{
+    width: 500px;
+    margin: 20px;
+    line-height: 2;
+}@media (max-width: 480px) {
+     .discription1{
+        width: 100%;
+        margin-bottom: 10vh;
+        line-height: 2;
+    }
+}
+
+.discription1 p{
+    width: 400px;
+    margin: 0 auto 20px;
+}@media (max-width: 480px) {
+     .discription1 p {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+.discription1 a{
+    display: block;
+    margin: 20px auto;
+    text-decoration: none;
+    width: 180px;
+    height: 40px;
+    background-color: #3D5CDB;
+    color: #ffffff;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+
+.down_intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15vh;
+}@media(max-width:480px) {
+    .down_intro {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15vh;
+        flex-wrap: wrap-reverse;
+    }
+}
+
+.down_intro img{
+    width: 500px;
+    margin: 20px;
+    line-height: 2;
+    
+}@media (max-width: 480px) {
+     .down_intro img {
+     width: 100%;
+     margin-bottom: 20px;
+     line-height: 2;
+    }
+}
+
+
+.discription2{
+    width: 500px;
+    margin: 20px;
+    line-height: 2;
+}@media (max-width: 480px) {
+     .discription2{
+        width: 100%;
+        margin-bottom: 10vh;
+        line-height: 2;
+    }
+}
+
+.discription2 p{
+    width: 400px;
+    margin: 0 auto 20px;
+}@media (max-width: 480px) {
+     .discription2 p {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+.discription2 a{
+    display: block;
+    margin: 20px auto;
+    text-decoration: none;
+    width: 180px;
+    height: 40px;
+    background-color: #ffbf00;
+    color: #ffffff;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 15pt;
+}
+
+
+
+#courses {
+    background-color: rgba(186, 213, 245, 0.6);
+    z-index: 1;
+}
+
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    background-color: #bad5f5;
+    display: block;
+    padding: 50px 0;
+}
+
+
+
+.coursesection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*
+@media (min-width: 1200px){
+    .course-container {
+        width: 1170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+*/
+
+.coursediv {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.coursekind {
+    
+    width: 190px;
+    height: 300px;
+    background-color: #ffffff;
+    margin: 8px;
+    border-radius: 12px;
+    padding: 20px;
+}@media(max-width: 480px){
+    .coursekind {
+        width: 100px;
+        height: 200px;
+        background-color: #ffffff;
+        margin: 8px;
+        border-radius: 12px;
+    }
+}
+
+
+
+.image {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    position: relative;
+}@media(max-width: 480px){ 
+    .image {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        position: relative;
+    }
+}
+
+.image img {
+    width: 100px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}@media(max-width: 480px){   
+    .image img {
+        width: 50px;
+        object-fit: contain;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+}
+
+.coursekind p {
+    color: #183c61;
+    font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', メイリオ;
+    font-size: 15pt;
+    text-align: center;
+    margin: 10px;
+}@media(max-width: 480px){   
+    .coursekind p {
+        font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', メイリオ;
+        font-size: 10px;
+        text-align: center;
+        margin: 10px;
+        color: #183c61;
+    }
+}
+
+
+.coursekind a {
+    display:block;
+    margin: 40px auto 20px;
+    
+    text-decoration: none;
+    width: 170px;
+    height: 40px;
+    background-color: #ffbf00;
+    color: #ffffff;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 3;
+    font-size: 13px;
+}@media(max-width: 480px){
+    .coursekind a {
+    display:block;
+        margin: 40px auto 20px;
+        text-decoration: none;
+        width: 100px;
+        height: 40px;
+        background-color: #ffbf00;
+        color: #ffffff;
+        border-radius: 12px;
+        text-align: center;
+        line-height: 3;
+        font-size: 13px;
+    }
+}
+.coursekind a:hover{
+    box-shadow: 10px 2px 20px 2px rgba(135,200,142,0.4);
+}
+
+
+
+
+.slider {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.slider img {
+    /*height: auto;*/
+    width: 100%;
+}
+
+
+#accesssection {
+    display: flex;
+/*    flexをたてに並べる時につかううううううううううううううううううううううううううううううううう*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+
+
+footer {
+    color: #3D5CDB;
+    font-family: Futura;
+    text-align: center;
+    
+}
+
