@@ -33,12 +33,24 @@ section{
 }
 
 
+.bg-slider {
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
 header {
     background-size: cover;
     background-position: center center;
     background-color: blanchedalmond;
     height: 100vh;
-    position: relative;
+/*    position: relative;*/
 }
 
 .hh {
